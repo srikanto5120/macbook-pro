@@ -1,3 +1,25 @@
+.heading{
+    
+     text-align: center;
+     margin:15px;
+     color: rgba(0,0,0,0.6);
+     text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+
+    
+
+}
+.heading-hr{
+    border: 2px solid rgba(26, 19, 19, 0.699);
+    width: 20%;
+    margin-left:40%;
+}
+.heading2{
+    color: rgba(0,0,0,0.6);
+}
+p{
+    color: rgba(0,0,0,0.6);
+}
 .hr1{
     border:1px solid rgb(0, 0, 0) ;
 }
