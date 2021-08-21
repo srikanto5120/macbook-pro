@@ -7,37 +7,31 @@
 //16GB unified memory
   document.getElementById('memory-16gb').addEventListener('click',function(){
     updateProductPrice ('memory-price',180)
-    
-
      });
    //8GB unified memory 
   document.getElementById('memory-8gb').addEventListener('click',function(){
       updateProductPrice ('memory-price',0)
-      
       });
     //1TB unified ssd
    document.getElementById('ssd-1tb').addEventListener('click',function(){
       updateProductPrice('ssd-price',180)
-      
     });
  //512GB unified ssd
     document.getElementById('ssd-512gb').addEventListener('click',function(){
            updateProductPrice('ssd-price',100);
-          
     });
      //256GB unified ssd
     document.getElementById('ssd-256gb').addEventListener('click',function(){
          updateProductPrice('ssd-price',0);
-         
-    })
+    });
  // paid delivery
     document.getElementById('paid-delivery').addEventListener('click',function(){
           updateProductPrice('delivery-cost',20)
-    })
+    });
   //free delivery
     document.getElementById('free-delivery').addEventListener('click',function(){
         updateProductPrice('delivery-cost',0)
-    })
+    });
 //update price calculate function
     function updatePriceCalculate(){
      //  best price 
@@ -63,7 +57,6 @@
           totalPrice.innerText = selectProductTotal;
           const afterDiscuntTotal = document.getElementById('after-discount');
           afterDiscuntTotal.innerText = selectProductTotal;
- 
  };
  //    bonus section code code
   document.getElementById('input-button').addEventListener('click',function(){
@@ -84,12 +77,10 @@
              wongcode.innerText = '';
          }
          else{
-              
               wongcode.innerText="wrong-code"
               wongcode.style.color = 'red'
-              
          }
-      input.value='';
+        input.value='';
   });
     
  
